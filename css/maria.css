@@ -1,0 +1,43 @@
+#content {
+    width: 420px;
+    padding: 40px;
+    left: 0px;
+    top: 10px;
+    text-align: left;
+}
+
+#content li :hover {
+    color: #fff;
+}
+
+#content h2 {
+    color: #BF9A7D;
+    font-size: 2em;
+    margin: 0px 0px 10px 0px;
+}
+
+#content h3, #content p {
+    color: #fff;
+    margin: 0px 0px 10px 0px;
+}
+
+#content a {
+    color: #BF9A7D;
+    text-decoration: none;
+}
+
+#content li {
+    color: #BF9A7D;
+    list-style-type: square;
+    font-size: 1.2em;
+    font-family: 'Open Sans', helvetica, arial, san-serif;
+}
+
+#content li.email {
+    padding: 10px 0px 0px 0px;
+}
+
+#content li.email, #content li.email a {
+    font-size: 1em;
+    color: #fff;
+}
