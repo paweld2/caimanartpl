@@ -1,43 +1,81 @@
+
 #content {
-    width: 420px;
+    width: 160px;
     padding: 40px;
     left: 0px;
     top: 10px;
     text-align: left;
+    background: url('../img/bg-black.png') repeat scroll 0 0 transparent;
+    font-family: 'Open Sans Condensed' !important;
+    font-size : 16px;
+    font-weight: 300;
+    font-size-adjust: none;
+    font-style: normal;
+    color: white;
 }
 
-#content li :hover {
-    color: #fff;
+.menu {
+    background: url('../img/ZNAK_MJ-01.png') no-repeat 20px 0px transparent;
+    padding: 100px 0px 0px 0px;
 }
 
-#content h2 {
+#about {
+    width: 930px;
+    margin: 0px auto;
+    padding: 40px;
+    text-align: left;
+    background: url('../images/czern_90-01.png') repeat scroll 0 0 ;
+    font-family: 'Open Sans Condensed' !important;
+    font-size : 16px;
+    font-weight: 300;
+    font-size-adjust: none;
+    font-style: normal;
+    color: white;
+}
+
+#about h2 {
     color: #BF9A7D;
-    font-size: 2em;
     margin: 0px 0px 10px 0px;
 }
 
-#content h3, #content p {
+#about h3, #content p {
     color: #fff;
     margin: 0px 0px 10px 0px;
 }
 
-#content a {
+#about .wrapper {
+    width: 930px;
+}
+#about .menu {
+    width: 160px;
+    float: left;
+}
+
+#abouttext {
+    width: 720px;
+    margin-left: 160px;
+}
+
+.menu li :hover {
     color: #BF9A7D;
+}
+
+
+.menu a {
+    /*color: #BF9A7D;*/
+    color: white;
     text-decoration: none;
 }
 
-#content li {
-    color: #BF9A7D;
+.menu li {
+    /*color: #BF9A7D;*/
     list-style-type: square;
-    font-size: 1.2em;
-    font-family: 'Open Sans', helvetica, arial, san-serif;
 }
 
-#content li.email {
+.menu li.email {
     padding: 10px 0px 0px 0px;
 }
 
-#content li.email, #content li.email a {
-    font-size: 1em;
+.menu li.email, .menu li.email a {
     color: #fff;
 }
