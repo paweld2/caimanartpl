@@ -76,7 +76,7 @@ License : MIT License / GPL License
 
 <body>
 
-<div id="content">
+<div id="content-gallery">
     <div class="menu">
     <ul>
         <li><a href="index.html">Str. główna</a></li>
@@ -126,5 +126,19 @@ License : MIT License / GPL License
 			
 		</div>
 	</div>
+<script type="text/javascript">
+    $(function() {
+        $('#content-gallery').hover(
+                function () {
+                    $('ul',$(this)).stop().animate({'marginLeft':'10px'},200);
+                    $(this).stop().animate({'width':'200px'},200);
+                },
+                function () {
+                    $('ul',$(this)).stop().animate({'marginLeft':'-130px'},200);
+                    $(this).stop().animate({'width':'100px'},200);
+                }
+        );
+    });
+</script>
 </body>
 </html>
